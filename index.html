@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards</title>
+
+  <link rel="stylesheet" href="build/css/main.css">
+  <link rel="stylesheet" href="build/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__menu">
+        <button class="header__menu-bttn bttn bttn-add">add</button>
+        <button class="header__menu-bttn bttn bttn-remove">remove</button>
+        <button class="header__menu-bttn bttn bttn-fill">fill</button>
+        <button class="header__menu-bttn bttn bttn-clear">clear</button>
+        <button class="header__menu-bttn bttn bttn-history">history</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <ul class="cards"></ul>
+    </div>
+  </main>
+  <footer></footer>
+
+  <div class="modal-overlay">
+    <div class="modal modal_more">
+      <div class="container modal-content">
+        <h2 class="modal__title more-js-title"></h2>
+        <p class="modal__text more-js-text"></p>
+      </div>
+    </div>
+
+    <div class="modal modal_history">
+      <div class="container">
+        <h2 class="modal__title">History</h2>
+        <ul class="modal__list"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
